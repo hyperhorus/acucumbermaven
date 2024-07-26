@@ -2,7 +2,7 @@ Feature: Buscar un elemento en Google
 
  Scenario: Buscar en elemeto en la pagina de Goole
  Given El usuario aterriza en la pagina de busqueda
- When El usuario busca "zapatos" en la pagina
+ When El usuario busca "New York Yankees" en la pagina
  Then Se despliegan los resultados de la busqueda
 
   
