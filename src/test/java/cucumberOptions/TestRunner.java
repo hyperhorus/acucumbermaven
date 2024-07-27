@@ -12,7 +12,7 @@ glue = {"stepDefinitions"},
 monochrome = true,
 plugin = {"pretty", "html:target/cucumber.html", "rerun:target/failed_scenarios.txt"},
 dryRun = false,
-tags = "@A3" 
+tags = "@A1" 
 )
 public class TestRunner {
 

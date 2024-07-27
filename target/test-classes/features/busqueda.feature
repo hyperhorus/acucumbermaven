@@ -1,5 +1,5 @@
 Feature: Buscar un elemento en Google
-
+ 	@A1
   Scenario: Buscar en elemeto en la pagina de Goole
     Given El usuario aterriza en la pagina de busqueda
     When El usuario busca "New York Yankees" en la pagina
