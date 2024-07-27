@@ -24,7 +24,7 @@ public class LandingPage_Definition {
 		landingPage = testContextSetup.pageObjectManager.getLandingPage();
 		
 	}
-	@When("El usuario busca {string} en la pagina")
+	@When("^El usuario busca (.+) en la pagina$")
 	public void el_usuario_busca_en_la_pagina(String string) {
 		landingPage.searchItem(string);
 	}
@@ -32,6 +32,8 @@ public class LandingPage_Definition {
 	public void se_despliegan_los_resultados_de_la_busqueda() {
 		landingPage.clickSearhBtn();
 	}
+	
+	
 
 
 }
